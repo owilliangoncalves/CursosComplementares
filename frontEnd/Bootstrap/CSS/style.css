@@ -1,0 +1,32 @@
+body {
+  padding-top: 64px;
+}
+.box-shadow {
+  box-shadow: 0 2px 10px 0 rgb(212, 212, 212);
+}
+
+.icone {
+  height: 100px;
+}
+#home-quote {
+  background: url(../img/bg-quote.jpg) center center;
+  background-size: cover;
+}
+.line li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.line li {
+  padding: 1rem;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding-top: 0;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
